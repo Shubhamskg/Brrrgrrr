@@ -1,0 +1,244 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar{
+  background-color: rgb(254, 253, 251);
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+}
+.y-box{
+  background-color: rgb(255, 200, 0);
+  width: 3vw;
+  height: 100%;
+}
+.w-box{
+  background-color: white;
+  width: 3vw;
+  height:100%;
+}
+.y{
+  background-color: rgb(205, 161, 2);
+  width: 3vw;
+  margin-top: 115px;
+  height: 25%;
+}
+.w{
+  background-color: rgb(225, 223, 223);
+  width: 3vw;
+  margin-top: 115px;
+  height: 25%;
+}
+.burger {
+  background-color: rgb(79, 78, 78);
+  height: 50vh;
+  display: flex;
+}
+.burger-menu{
+  background-color: grey;
+  /* width: 100%; */
+  height: 30vh;
+  border-top: 16px solid rgb(173, 173, 173);
+}
+
+.menu-box{
+  background-color: white;
+  width: 30vw;
+  height: 15vh;
+  margin-left: 10vw;
+  position: absolute;
+  align-items: center;
+  box-shadow: 1px solid black;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.text{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+.add {
+  background-color: rgb(255, 200, 0);
+  color: rgb(6, 4, 4);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  /* margin-right: 20px; */
+  border-radius: 4px;
+}
+.li{
+  font-size: 14px;
+}
+.remove{
+  background-color: rgba(255, 0, 81, 0.978);
+  height: 15px;
+  width: 25px;
+  color: white;
+  border-radius: 2px;
+  border:none;
+  cursor: pointer;
+  /* position: absolute; */
+  margin-left: 10px;
+  margin-bottom: 5px;
+  /* padding: 6px; */
+  align-items: center;
+  justify-content: center;
+}
+.order{
+  background-color: black;
+  color: white;
+  height: 20vh;
+  width:20vw;
+  margin-left: 70vw;
+  border: 6px solid white;
+  padding: 10px;
+}
+.order-text{
+  color:white;
+  margin: 5px auto;
+  padding: 5px;
+  font-size: 12px;
+}
+.amount{
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.pay{
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border:red;
+  cursor: pointer;
+  position: absolute;
+  margin-left:10vw;
+  padding: 6px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.cancel{
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border:red;
+  cursor: pointer;
+  left: 1250px;
+  top: 540px;
+  position: fixed;
+  padding: 6px;
+  margin-left: 20px;
+}
+.icon{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  align-items: center;
+  border: 4px solid rgb(255, 200, 0);
+  text-align: center;
+  margin-left: 43vw;
+  margin-top: 5vw;
+}
+.burger-icon{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.icon-text{
+  color:brown;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+}
+.burger-u{
+  height: 150px;
+  width: 200px;
+  margin-top: 70px;
+  margin-left: 140px;
+}
+.burger-img{
+  height:150px;
+  width:200px;
+  background-color: none;
+  margin-top: 215px;
+  margin-left: 60px;
+}
+.orders{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border: 8px solid rgb(171, 99, 3);
+  margin-top: 150px;
+  margin-left: 100px;
+  color: white;
+  border-style:ridge;
+  padding:0;
+  overflow-y:auto;
+}
+.your{
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+}
+.menu{
+  height: 175px;
+  width:140px;
+  background-color: white;
+  margin-top: 180px;
+  margin-left: 100px;
+}
+p{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.head{
+font-size: medium;
+margin-bottom: 0;
+}
+.price{
+  height:200px;
+  width: 200px;
+  background-color: black;
+  border: 8px solid rgb(171, 99, 3);
+  margin-top: 50px;
+  margin-left: 100px;
+  color: white;
+  border-style:ridge
+}
+.tri{
+  height:175px;
+  width: 25px;
+  background-color: rgb(237, 232, 226);
+  margin-top: 180px;
+  border-top-right-radius: 80%;
+}
+.price-head{
+  color: white;
+ text-align: center;
+}
+.price-txt{
+  color: white;
+}
